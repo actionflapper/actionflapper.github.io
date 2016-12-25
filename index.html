@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+<link rel="stylesheet" href="index.css">
+<script type="text/javascript" src="index.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script>
+$(document).ready(function()
+{
+	$("#foot").hide();
+    $("#maintext").fadeOut(5000);
+
+});
+
+function PizzaYum()
+{
+	$("#foot").show();
+}
+</script>
+</head>
+
+<body onload="OnLoad()" onkeypress="Pause()">
+
+<center>
+	<p id="maintext">ACTION FLAPPERS</p>
+	<video id="action">
+		<source src="actionflappers.mp4" type="video/mp4">
+	</video>
+	<br /><br /><br /><br />
+	<footer>
+	<p id="foot">Created by Louisa Lawler</p>
+	</footer>
+</center>
+
+</body>
+
+</html>
